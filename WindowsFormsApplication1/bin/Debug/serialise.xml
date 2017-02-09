@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="windows-1250"?>
+<ChildForm>
+  <Control Type="System.Windows.Forms.ProgressBar" Name="progressBar1">
+    <Visible>True</Visible>
+  </Control>
+  <Control Type="System.Windows.Forms.CheckBox" Name="checkBox10">
+    <Checked>False</Checked>
+    <Visible>True</Visible>
+  </Control>
+  <Control Type="System.Windows.Forms.TextBox" Name="textBox11">
+    <Text />
+    <Kolorek>-1</Kolorek>
+    <Visible>True</Visible>
+  </Control>
+  <Control Type="System.Windows.Forms.TextBox" Name="textBox10">
+    <Text />
+    <Kolorek>-1</Kolorek>
+    <Visible>True</Visible>
+  </Control>
+  <Control Type="System.Windows.Forms.CheckBox" Name="checkBox9">
+    <Checked>False</Checked>
+    <Visible>True</Visible>
+  </Control>
+  <Control Type="System.Windows.Forms.TextBox" Name="textBox9">
+    <Text />
+    <Kolorek>-1</Kolorek>
+    <Visible>True</Visible>
+  </Control>
+  <Control Type="System.Windows.Forms.TextBox" Name="textBox8">
+    <Text />
+    <Kolorek>-1</Kolorek>
+    <Visible>True</Visible>
+  </Control>
+  <Control Type="System.Windows.Forms.TextBox" Name="textBox7">
+    <Text />
+    <Kolorek>-1</Kolorek>
+    <Visible>True</Visible>
+  </Control>
+  <Control Type="System.Windows.Forms.TextBox" Name="textBox6">
+    <Text />
+    <Kolorek>-1</Kolorek>
+    <Visible>True</Visible>
+  </Control>
+  <Control Type="System.Windows.Forms.TextBox" Name="textBox5">
+    <Text />
+    <Kolorek>-1</Kolorek>
+    <Visible>True</Visible>
+  </Control>
+  <Control Type="System.Windows.Forms.TextBox" Name="textBox4">
+    <Text />
+    <Kolorek>-1</Kolorek>
+    <Visible>True</Visible>
+  </Control>
+  <Control Type="System.Windows.Forms.TextBox" Name="textBox3">
+    <Text />
+    <Kolorek>-1</Kolorek>
+    <Visible>True</Visible>
+  </Control>
+  <Control Type="System.Windows.Forms.CheckBox" Name="checkBox8">
+    <Checked>False</Checked>
+    <Visible>True</Visible>
+  </Control>
+  <Control Type="System.Windows.Forms.CheckBox" Name="checkBox7">
+    <Checked>False</Checked>
+    <Visible>True</Visible>
+  </Control>
+  <Control Type="System.Windows.Forms.CheckBox" Name="checkBox6">
+    <Checked>False</Checked>
+    <Visible>True</Visible>
+  </Control>
+  <Control Type="System.Windows.Forms.CheckBox" Name="checkBox5">
+    <Checked>False</Checked>
+    <Visible>True</Visible>
+  </Control>
+  <Control Type="System.Windows.Forms.CheckBox" Name="checkBox4">
+    <Checked>False</Checked>
+    <Visible>True</Visible>
+  </Control>
+  <Control Type="System.Windows.Forms.CheckBox" Name="checkBox3">
+    <Checked>False</Checked>
+    <Visible>True</Visible>
+  </Control>
+  <Control Type="System.Windows.Forms.CheckBox" Name="checkBox2">
+    <Checked>False</Checked>
+    <Visible>True</Visible>
+  </Control>
+  <Control Type="System.Windows.Forms.TextBox" Name="textBox2">
+    <Text>F:\T2</Text>
+    <Kolorek>-1</Kolorek>
+    <Visible>True</Visible>
+  </Control>
+  <Control Type="System.Windows.Forms.TextBox" Name="textBox1">
+    <Text>F:\T1</Text>
+    <Kolorek>-1</Kolorek>
+    <Visible>True</Visible>
+  </Control>
+  <Control Type="System.Windows.Forms.Button" Name="button1">
+    <Visible>True</Visible>
+  </Control>
+  <Control Type="System.Windows.Forms.CheckBox" Name="checkBox1">
+    <Checked>False</Checked>
+    <Visible>True</Visible>
+  </Control>
+</ChildForm>
