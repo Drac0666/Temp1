@@ -17,4 +17,23 @@ def find_zero_columns(row):
 zero_columns = df.apply(find_zero_columns, axis=1)
 
 # Print the result
-print(zero_columns)
+print(zero_columns
+
+import pandas as pd
+
+# Sample data
+data = {
+    'ISIN': ['XX5', 'XX5', 'XX6', 'XX5', 'XX7', 'XX7'],
+    'Dates': ['2024-07-22', '2024-07-23', '2024-07-22', '2024-07-22', '2024-07-22', '2024-07-23']
+}
+
+df = pd.DataFrame(data)
+
+# Group by ISIN and check for unique dates
+isin_maturity_check = df.groupby('ISIN')['Dates'].nunique()
+
+# Identify ISINs with more than one unique date
+isins_with_multiple_maturities = isin_maturity_check[isin_maturity_check > 1].index.tolist()
+
+print("ISINs with different maturities:", isins_with_multiple_maturities)
+
