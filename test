@@ -1,0 +1,20 @@
+import pandas as pd
+
+# Sample DataFrame
+data = {
+    'A': [1, 0, 3, 0, 5],
+    'B': [0, 2, 0, 4, 0],
+    'C': [1, 0, 0, 4, 5]
+}
+
+df = pd.DataFrame(data)
+
+# Function to find columns with value 0 for each row
+def find_zero_columns(row):
+    return row[row == 0].index.tolist()
+
+# Apply the function to each row
+zero_columns = df.apply(find_zero_columns, axis=1)
+
+# Print the result
+print(zero_columns)
